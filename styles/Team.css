@@ -72,7 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 30px;
+    padding: 10px 30px;
     margin: 10px 13px;
     border-radius: 10px;
     opacity: 0;
@@ -84,16 +84,20 @@
 
 
 #sumedh{
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 #mangesh{
+    animation-delay: 0.25s;
+}
+
+#ritika{
     animation-delay: 0.4s;
 }
 
 .member-card-container img{
-    width: 13vw;
-    height: 13vw;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
 }
 
@@ -103,7 +107,9 @@
     font-size: 1.5vw;
     margin-bottom: 0;
     font-weight: 400;
-    color:rgb(42, 42, 42);
+    /* color:rgb(42, 42, 42); */
+    /* color: rgb(255, 247, 235); */
+    color: white;
 }
 
 .member-major{
@@ -116,9 +122,10 @@
 .member-role{
     opacity: 75%;
     font-size: 0.8vw;
-    margin-bottom: -5px;
+    margin-bottom: -85px;
     font-weight: 100;
-    color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -162,7 +169,7 @@
     }
 
     .member-card-container img{
-        width: 60vw;
+        width: 50vw;
         height: 60vw;
     }
 
